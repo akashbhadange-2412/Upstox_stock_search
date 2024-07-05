@@ -13,3 +13,5 @@ upstox_stock_search/
     ├── tsconfig.json
     ├── package.json
     └── .env
+└── database/
+    └── setup.sql
