@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js", // Compile TypeScript and run the server
+    "dev": "ts-node-dev src/index.ts" // Run the server in development mode
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0", // Environment variables
+    "express": "^4.17.1", // Express framework
+    "pg": "^8.6.0" // PostgreSQL client
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11", // Type definitions for Express
+    "@types/node": "^14.14.37", // Type definitions for Node.js
+    "ts-node": "^9.1.1", // TypeScript execution environment
+    "ts-node-dev": "^1.1.6", // Development environment for TypeScript
+    "typescript": "^4.2.4" // TypeScript compiler
+  }
+}
